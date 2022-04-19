@@ -1,0 +1,144 @@
+#VRML_SIM R2020a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.5816832714644659 0.5685854895380555 0.5816830002545772 4.171960306100425
+  position 5.0990213859522004 29.31395471345353 3.3256798019718907
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 4.5 0 4.885
+  size 9 9.77
+}
+Wall {
+  translation 6.375 0 3.36
+  name "wall(16)"
+  size 0.15 2.4 1.1
+}
+Wall {
+  translation 7.575 0 2.735
+  name "wall(15)"
+  size 2.55 2.4 0.15
+}
+Wall {
+  translation 7.575 0 3.97
+  name "wall(14)"
+  size 2.55 2.4 0.15
+}
+StraightStairs {
+  translation 4.49 0 7
+  rotation 0 1 0 1.5708
+  stepRise 0.2
+  nSteps 8
+}
+Wall {
+  translation 4.49 0 7.18
+  name "wall(13)"
+  size 1.1 0.19 0.15
+}
+Wall {
+  translation 3.875 0 5.575
+  name "wall(12)"
+  size 0.15 2.4 3.37
+}
+Wall {
+  translation 4.425 0 3.815
+  name "wall(11)"
+  size 1.25 2.4 0.15
+}
+Wall {
+  translation 5.125 0 5.005
+  name "wall(10)"
+  size 0.15 2.4 4.53
+}
+Wall {
+  translation 0.75 0 8.35
+  name "wall(9)"
+  size 1.2 2.4 0.15
+}
+Door {
+  translation 1.85 0 8.35
+  rotation 0 1 0 3.14159
+  size 1 2.4 0.15
+}
+Wall {
+  translation 2.45 0 8.35
+  name "wall(8)"
+  size 0.2 2.4 0.15
+}
+Wall {
+  translation 1.35 0 2.5
+  name "wall(7)"
+  size 0.15 2.4 4.7
+}
+Wall {
+  translation 0.75 0 4.775
+  name "wall(6)"
+  size 1.2 2.4 0.15
+}
+Wall {
+  translation 0.075 0 7.235
+  name "wall(5)"
+  size 0.15 2.4 5.07
+}
+Wall {
+  translation 1.35 0 9.695
+  name "wall(4)"
+  size 2.4 2.4 0.15
+}
+Wall {
+  translation 2.625 0 7.095
+  name "wall(3)"
+  size 0.15 2.4 5.35
+}
+Wall {
+  translation 5.775 0 8.345
+  name "wall(2)"
+  size 6.15 2.4 0.15
+}
+Wall {
+  translation 8.925 0 4.285
+  name "wall(1)"
+  size 0.15 2.4 8.27
+}
+Wall {
+  translation 5.14 0 0.075
+  size 7.725 2.4 0.15
+}
+Create {
+  translation 4.34171 0.0420807 7.40288
+  rotation 0 -1 0 1.48402
+}
+Solid {
+  translation 1.17732 0.0298225 0.56744
+  rotation 0.5818371477872866 0.5663543681064367 0.5837022041944969 2.296922902097026
+  children [
+    DEF BALL_GEOMETRY Shape {
+      appearance PBRAppearance {
+        roughness 1
+        metalness 0
+      }
+      geometry Sphere {
+        radius 0.03
+        subdivision 2
+      }
+    }
+  ]
+  boundingObject USE BALL_GEOMETRY
+  physics Physics {
+  }
+}
+WoodenBox {
+  translation 1.14044 0.05 7
+  rotation 0 1 0 4.692820414042842e-06
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 1.25066 0.05 6.8
+  rotation 0 1 0 4.692820414042842e-06
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}

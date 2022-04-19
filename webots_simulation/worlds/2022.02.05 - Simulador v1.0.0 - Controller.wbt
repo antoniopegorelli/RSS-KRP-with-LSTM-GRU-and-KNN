@@ -1,0 +1,160 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  optimalThreadCount 8
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.5062555941852979 0.6984601206169561 0.5058248049115804 4.357599139782915
+  position -1.678304332405228 18.448751699209343 4.612704216268588
+  follow "Create"
+  followType "None"
+}
+TexturedBackground {
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_countryside"
+  castShadows FALSE
+}
+Floor {
+  translation 4.5 0 4.885
+  size 9 9.77
+  tileSize 1 1
+  appearance Parquetry {
+    type "chequered"
+    textureTransform TextureTransform {
+      translation 0 0.23
+    }
+  }
+}
+DEF Prediction Robot {
+  name "Prediction_Supervisor"
+  supervisor TRUE
+}
+Wall {
+  translation 6.375 0 3.36
+  name "wall(16)"
+  size 0.15 2.4 1.1
+}
+Wall {
+  translation 7.575 0 2.735
+  name "wall(15)"
+  size 2.55 2.4 0.15
+}
+Wall {
+  translation 7.575 0 3.97
+  name "wall(14)"
+  size 2.55 2.4 0.15
+}
+DEF Simulation_Supervisor Robot {
+  controller "my_controller_supervisor"
+  supervisor TRUE
+}
+StraightStairs {
+  translation 4.49 0 7
+  rotation 0 1 0 1.5708
+  stepRise 0.2
+  nSteps 8
+}
+Wall {
+  translation 4.49 0 7.18
+  name "wall(13)"
+  size 1.1 0.19 0.15
+}
+Wall {
+  translation 3.875 0 5.575
+  name "wall(12)"
+  size 0.15 2.4 3.37
+}
+Wall {
+  translation 4.425 0 3.815
+  name "wall(11)"
+  size 1.25 2.4 0.15
+}
+Wall {
+  translation 5.125 0 5.005
+  name "wall(10)"
+  size 0.15 2.4 4.53
+}
+Wall {
+  translation 0.75 0 8.35
+  name "wall(9)"
+  size 1.2 2.4 0.15
+}
+Door {
+  hidden linearVelocity_6 0 -5.494200336922209e-05 0
+  translation 1.85 0 8.35
+  rotation 0 1 0 3.14159
+  size 1 2.4 0.15
+  canBeOpen FALSE
+  position -5.695187843506008e-10
+  doorHandle DoorLever {
+    translation 0 -3.955103523023418e-06 0
+  }
+}
+Wall {
+  translation 2.45 0 8.35
+  name "wall(8)"
+  size 0.2 2.4 0.15
+}
+Wall {
+  translation 1.35 0 2.5
+  name "wall(7)"
+  size 0.15 2.4 4.7
+}
+Wall {
+  translation 0.75 0 4.775
+  name "wall(6)"
+  size 1.2 2.4 0.15
+}
+Wall {
+  translation 0.075 0 7.235
+  name "wall(5)"
+  size 0.15 2.4 5.07
+}
+Wall {
+  translation 1.35 0 9.695
+  name "wall(4)"
+  size 2.4 2.4 0.15
+}
+Wall {
+  translation 2.625 0 7.095
+  name "wall(3)"
+  size 0.15 2.4 5.35
+}
+Wall {
+  translation 5.775 0 8.345
+  name "wall(2)"
+  size 6.15 2.4 0.15
+}
+Wall {
+  translation 8.925 0 4.285
+  name "wall(1)"
+  size 0.15 2.4 8.27
+}
+Wall {
+  translation 5.14 0 0.075
+  size 7.725 2.4 0.15
+}
+DEF WIFI_ROBOT Create {
+  hidden position_0_0 5.975425151083513e-08
+  hidden position_0_1 6.024551246430754e-08
+  hidden linearVelocity_0 0.00042645221755658295 0.1537046548420663 0.0011271320806991027
+  hidden angularVelocity_0 0.03266395643079263 4.0119472940273505e-05 -0.011858174653498605
+  hidden rotation_1 -1 0 0 5.960464477539063e-08
+  hidden linearVelocity_1 0.00033893262709144416 0.15194119737816508 0.0007851375797982293
+  hidden angularVelocity_1 0.032662092109476876 3.1921499787929055e-05 -0.011850131369556597
+  hidden rotation_2 -1 0 0 5.960464477539063e-08
+  hidden linearVelocity_2 0.00033852876916461627 0.15516519779697358 0.0007901781264936479
+  hidden angularVelocity_2 0.032662070170786865 4.8354728394090125e-05 -0.011862899389804771
+  hidden translation_6 -8.761724621386691e-07 3.207095496240986e-06 -1.432594499028994e-06
+  hidden rotation_6 1.0622956652592844e-07 0.9999999999999395 -3.3165963288371406e-07 0.7269319560102369
+  hidden linearVelocity_6 0.0004181824133108167 0.15800470832768843 0.001146197169920143
+  hidden angularVelocity_6 0.03266353972582481 3.87501435563614e-05 -0.011865902064707345
+  hidden translation_7 -8.798077937299809e-07 2.94706993698296e-06 -1.2316427921987838e-06
+  hidden rotation_7 -6.890300796468743e-08 0.999999999999969 -2.3931889966594723e-07 -0.7269300271909844
+  hidden linearVelocity_7 0.00041758022316426167 0.15594765689196832 0.0011465553938717452
+  hidden angularVelocity_7 0.03266348791370945 3.926539978981361e-05 -0.011852651412966195
+  translation 2.8362927969153673 0.03689377106951417 1.1367009644963808
+  rotation 0.9517155741510772 -0.0028853891948008095 0.3069676537478826 0.0013162646178224852
+}

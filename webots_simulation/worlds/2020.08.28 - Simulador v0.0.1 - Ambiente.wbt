@@ -1,0 +1,124 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  FPS 144
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.5816829202514613 0.5685859842235996 0.5816828679204955 4.171960684925699
+  position 4.857649440958227 14.784395694415366 4.781767671822115
+}
+TexturedBackground {
+  skybox FALSE
+}
+TexturedBackgroundLight {
+  texture "noon_cloudy_countryside"
+}
+Floor {
+  translation 4.5 0 4.885
+  size 9 9.77
+  tileSize 1 1
+  appearance Parquetry {
+    type "chequered"
+    textureTransform TextureTransform {
+      translation 0 0.23
+    }
+  }
+}
+Wall {
+  translation 6.375 0 3.36
+  name "wall(16)"
+  size 0.15 2.4 1.1
+}
+Wall {
+  translation 7.575 0 2.735
+  name "wall(15)"
+  size 2.55 2.4 0.15
+}
+Wall {
+  translation 7.575 0 3.97
+  name "wall(14)"
+  size 2.55 2.4 0.15
+}
+StraightStairs {
+  translation 4.49 0 7
+  rotation 0 1 0 1.5708
+  stepRise 0.2
+  nSteps 8
+}
+Wall {
+  translation 4.49 0 7.18
+  name "wall(13)"
+  size 1.1 0.19 0.15
+}
+Wall {
+  translation 3.875 0 5.575
+  name "wall(12)"
+  size 0.15 2.4 3.37
+}
+Wall {
+  translation 4.425 0 3.815
+  name "wall(11)"
+  size 1.25 2.4 0.15
+}
+Wall {
+  translation 5.125 0 5.005
+  name "wall(10)"
+  size 0.15 2.4 4.53
+}
+Wall {
+  translation 0.75 0 8.35
+  name "wall(9)"
+  size 1.2 2.4 0.15
+}
+Door {
+  translation 1.85 0 8.35
+  rotation 0 1 0 3.14159
+  size 1 2.4 0.15
+}
+Wall {
+  translation 2.45 0 8.35
+  name "wall(8)"
+  size 0.2 2.4 0.15
+}
+Wall {
+  translation 1.35 0 2.5
+  name "wall(7)"
+  size 0.15 2.4 4.7
+}
+Wall {
+  translation 0.75 0 4.775
+  name "wall(6)"
+  size 1.2 2.4 0.15
+}
+Wall {
+  translation 0.075 0 7.235
+  name "wall(5)"
+  size 0.15 2.4 5.07
+}
+Wall {
+  translation 1.35 0 9.695
+  name "wall(4)"
+  size 2.4 2.4 0.15
+}
+Wall {
+  translation 2.625 0 7.095
+  name "wall(3)"
+  size 0.15 2.4 5.35
+}
+Wall {
+  translation 5.775 0 8.345
+  name "wall(2)"
+  size 6.15 2.4 0.15
+}
+Wall {
+  translation 8.925 0 4.285
+  name "wall(1)"
+  size 0.15 2.4 8.27
+}
+Wall {
+  translation 5.14 0 0.075
+  size 7.725 2.4 0.15
+}
+Create {
+  translation 6.76255 0.0420807 7.19226
+}

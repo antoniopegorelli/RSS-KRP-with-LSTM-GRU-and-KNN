@@ -1,0 +1,2 @@
+=IF(OR(F2=0;G2=0;H2=0;I2=0;J2=0;K2=0);"ZERO";"")
+=COUNTIF(L:L;"ZERO")/(COUNTA(K:K)-1)
